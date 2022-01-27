@@ -1,0 +1,126 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "separaissonamoral",
+					"pivot": [0, 15, 2]
+				},
+				{
+					"name": "cabeca",
+					"parent": "separaissonamoral",
+					"pivot": [0, 15, 3],
+					"cubes": [
+						{"origin": [-3, 24, -3.5], "size": [6, 6, 4], "uv": [0, 0]},
+						{"origin": [-1.5, 24, -6], "size": [3, 3, 4], "uv": [0, 10]},
+						{"origin": [-3, 30, 0], "size": [2, 2, 0], "uv": [17, 15]},
+						{"origin": [1, 30, 0], "size": [2, 2, 0], "uv": [17, 15]}
+					]
+				},
+				{
+					"name": "bracodireito",
+					"parent": "separaissonamoral",
+					"pivot": [-9, 15, 4],
+					"cubes": [
+						{"origin": [-8, 10.5, -2], "size": [4, 14, 4], "uv": [38, 46]}
+					]
+				},
+				{
+					"name": "bracoesquerdo",
+					"parent": "separaissonamoral",
+					"pivot": [9, 15, 4],
+					"cubes": [
+						{"origin": [4, 10.5, -2], "size": [4, 14, 4], "uv": [38, 46], "mirror": true}
+					]
+				},
+				{
+					"name": "corpo",
+					"parent": "separaissonamoral",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "corpocima",
+					"parent": "corpo",
+					"pivot": [0, 15, 1],
+					"rotation": [20, 0, 0],
+					"cubes": [
+						{"origin": [-5, 17.90004, -2.43312], "size": [10, 7, 8], "uv": [0, 35]}
+					]
+				},
+				{
+					"name": "corpobaixo",
+					"parent": "corpo",
+					"pivot": [0, 15, -1],
+					"rotation": [20, 0, 0],
+					"cubes": [
+						{"origin": [-4, 12.74376, -1.19684], "size": [8, 7, 5], "uv": [3, 50]}
+					]
+				},
+				{
+					"name": "cauda",
+					"parent": "corpo",
+					"pivot": [0, 1, 10],
+					"rotation": [-130, 0, 0],
+					"cubes": [
+						{"origin": [-1, -15, 4], "size": [2, 10, 2], "uv": [55, 52], "mirror": true}
+					]
+				},
+				{
+					"name": "pernaesquerda",
+					"parent": "separaissonamoral",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "pernaesquerdacima",
+					"parent": "pernaesquerda",
+					"pivot": [0, 17, -5],
+					"rotation": [55, 0, 0],
+					"cubes": [
+						{"origin": [0, -13.90896, -17.75821], "size": [4, 7, 4], "pivot": [0, -6, 0], "rotation": [-75, 0, 0], "uv": [38, 0]}
+					]
+				},
+				{
+					"name": "pernaesquerdabaixo",
+					"parent": "pernaesquerda",
+					"pivot": [0, 13, 11],
+					"rotation": [-33, 0, 0],
+					"cubes": [
+						{"origin": [0, -5.28111, 7.0286], "size": [4, 8, 4], "pivot": [0, -6, 0], "rotation": [10, 0, 0], "uv": [38, 13]}
+					]
+				},
+				{
+					"name": "pernadireita",
+					"parent": "separaissonamoral",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "pernadireitacima",
+					"parent": "pernadireita",
+					"pivot": [0, 17, -5],
+					"rotation": [55, 0, 0],
+					"cubes": [
+						{"origin": [-4, -13.90898, -17.75823], "size": [4, 7, 4], "pivot": [0, -6, 0], "rotation": [-75, 0, 0], "uv": [38, 0]}
+					]
+				},
+				{
+					"name": "pernadireitabaixo",
+					"parent": "pernadireita",
+					"pivot": [0, 13, 11],
+					"rotation": [-33, 0, 0],
+					"cubes": [
+						{"origin": [-4, -5.28113, 7.02858], "size": [4, 8, 4], "pivot": [0, -6, 0], "rotation": [10, 0, 0], "uv": [38, 13]}
+					]
+				}
+			]
+		}
+	]
+}
